@@ -14,7 +14,7 @@ import kotlin.collections.ArrayList
 
 object LogDna {
 
-    private const val hostName = "Android App"
+    private const val hostName = "corelink-mobile"
     private var apiKey: String? = null
     var appName: String? = null
     var logResults = PublishRelay.create<LogResult>()
